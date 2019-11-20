@@ -24,7 +24,6 @@ if sys.version_info[0] >= 3:
     sys.path.append('/usr/local/lib/python3.6/site-packages/')
 sys.path
 
-
 #import training dataset
 import deepchem as dc
 tasks, datasets, transformers = dc.molnet.load_muv() 
